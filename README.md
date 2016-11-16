@@ -5,5 +5,7 @@ the [React homepage](https://facebook.github.io/react/)
 
 ## Usage
 
-  npm install
-  npm start
+```
+npm install
+npm start
+```
