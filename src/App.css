@@ -1,0 +1,31 @@
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.container .panel {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-right: 4px solid lightgrey;
+}
+
+.container .panel > textarea {
+  display: flex;
+  flex: 1 0 auto;
+  margin: 0;
+  padding: 16px;
+  flex-direction: column
+
+}
+
+.container .panel > .content {
+  flex: 1 0 auto;
+  margin: 0;
+  padding-left: 16px;
+  background-color: whitesmoke;
+}
+
+.container .panel > textarea {
+  border: 0;
+}
